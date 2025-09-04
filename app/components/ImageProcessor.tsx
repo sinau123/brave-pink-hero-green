@@ -38,8 +38,8 @@ const ImageProcessor = ({
   const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
   const data = imageData.data;
 
-  const bravePink = { r: 249, g: 159, b: 210 }; // #E4007C
-  const heroGreen = { r: 46, g: 87, b: 54 }; // #00A86B
+  const bravePink = { r: 247, g: 132, b: 197 }; // #E4007C
+  const heroGreen = { r: 27, g: 96, b: 47 }; // #00A86B
 
   for (let i = 0; i < data.length; i += 4) {
     const gray =
