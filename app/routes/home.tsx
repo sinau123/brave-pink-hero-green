@@ -42,6 +42,9 @@ export default function Home() {
           <p className="text-gray-600">
             Upload an image and see it transformed into brave pink hero green
           </p>
+          <p className="text-lg max-w-xl mx-auto text-gray-600 p-1 border-pink-500 bg-pink-200 border rounded-sm my-2">
+           It's safe. We never store your images.
+          </p>
         </div>
 
         {!originalImage ? (
