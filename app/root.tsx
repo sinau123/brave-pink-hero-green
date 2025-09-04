@@ -34,6 +34,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         {children}
+        <footer className="p-2">Made by AI and some adjustments have been made by <a className="underline hover:text-pink-400 text-pink-600" href="mailto:denis.harbiyanto@gmail.com">denis.harbiyanto@gmail.com</a></footer>
         <ScrollRestoration />
         <Scripts />
       </body>
