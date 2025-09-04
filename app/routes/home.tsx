@@ -7,8 +7,8 @@ import ImageDisplay from "@/components/ImageDisplay";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Brave Pink Hero Green Image Converter" },
+    { name: "description", content: "Convert your images to brave pink hero green color" },
   ];
 }
 
